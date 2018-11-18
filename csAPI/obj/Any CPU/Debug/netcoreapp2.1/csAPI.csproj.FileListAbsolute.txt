@@ -1,0 +1,14 @@
+C:\Users\scynj\source\repos\csAPI\csAPI\bin\Any CPU\Debug\netcoreapp2.1\csAPI.deps.json
+C:\Users\scynj\source\repos\csAPI\csAPI\bin\Any CPU\Debug\netcoreapp2.1\csAPI.runtimeconfig.json
+C:\Users\scynj\source\repos\csAPI\csAPI\bin\Any CPU\Debug\netcoreapp2.1\csAPI.runtimeconfig.dev.json
+C:\Users\scynj\source\repos\csAPI\csAPI\bin\Any CPU\Debug\netcoreapp2.1\csAPI.dll
+C:\Users\scynj\source\repos\csAPI\csAPI\bin\Any CPU\Debug\netcoreapp2.1\csAPI.pdb
+C:\Users\scynj\source\repos\csAPI\csAPI\bin\Any CPU\Debug\netcoreapp2.1\csAPI.xml
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Any CPU\Debug\netcoreapp2.1\csAPI.csproj.CoreCompileInputs.cache
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Any CPU\Debug\netcoreapp2.1\csAPI.RazorAssemblyInfo.cache
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Any CPU\Debug\netcoreapp2.1\csAPI.RazorAssemblyInfo.cs
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Any CPU\Debug\netcoreapp2.1\csAPI.AssemblyInfoInputs.cache
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Any CPU\Debug\netcoreapp2.1\csAPI.AssemblyInfo.cs
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Any CPU\Debug\netcoreapp2.1\csAPI.RazorTargetAssemblyInfo.cache
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Any CPU\Debug\netcoreapp2.1\csAPI.dll
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Any CPU\Debug\netcoreapp2.1\csAPI.pdb

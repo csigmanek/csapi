@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>csAPI</name>
+    </assembly>
+    <members>
+        <member name="T:csAPI.Controllers.FooController">
+            <summary>
+            Foo controller.
+            </summary>
+        </member>
+        <member name="M:csAPI.Controllers.FooController.#ctor(Microsoft.Extensions.Options.IOptionsSnapshot{csAPI.Configuration.ConnectionStrings},csAPI.Services.IFooService,Microsoft.Extensions.Logging.ILogger{csAPI.Controllers.FooController})">
+            <summary>
+            Creates new instance of <see cref="T:csAPI.Controllers.FooController"/>.
+            </summary>
+            <param name="connectionStrings">
+            Instance of <see cref="T:Microsoft.Extensions.Options.IOptionsSnapshot`1"/> object that contains connection string.
+            More information: https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionssnapshot-1?view=aspnetcore-2.1
+            TODO: https://www.strathweb.com/2016/09/strongly-typed-configuration-in-asp-net-core-without-ioptionst/
+            </param>
+            <param name="service">Instance of <see cref="T:csAPI.Services.IFooService"/></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:csAPI.Controllers.FooController.Post(csAPI.Models.Foo)">
+            <summary>
+            Tries to create a new Foo.
+            </summary>
+            <param name="foo">Instance of <see cref="T:csAPI.Models.Foo"/>.</param>
+            <response code="200">Foo created.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:csAPI.Controllers.FooController.PostFile(csAPI.Models.Foo,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Tries to create a new foo file.
+            </summary>
+            <param name="foo">Instance of <see cref="T:csAPI.Models.Foo"/>.</param>
+            <param name="file">A file content</param>
+            <returns></returns>
+        </member>
+        <member name="M:csAPI.Controllers.FooController.Get">
+            <summary>
+            Tries to retrieve all Foo objects.
+            </summary>
+            <response code="200">All available Foo objects retrieved.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:csAPI.Controllers.FooController.Get(System.Int32)">
+            <summary>
+            Tries to retrieve specified Foo.
+            </summary>
+            <param name="id">Unique identifier.</param>
+            <response code="200">Foo successfully retrieved.</response>
+            <response code="404">Specified Foo doesn't exist.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:csAPI.Controllers.FooController.Patch(csAPI.Models.Foo)">
+            <summary>
+            Tries to update the Foo.
+            </summary>
+            <param name="foo">Instance of <see cref="T:csAPI.Models.Foo"/> that holds values that we want updated.</param>
+            <response code="200">Foo updated successfully.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:csAPI.Controllers.FooController.Delete(System.Int32)">
+            <summary>
+            Tires to delete specified Foo.
+            </summary>
+            <param name="id">Unique identifier.</param>
+            <response code="200">Foo deleted successfully.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="T:csAPI.Models.Foo">
+            <summary>
+            The Foo
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Foo.CreateAd">
+            <summary>
+            Gets the creation time.
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Foo.Id">
+            <summary>
+            Gets or sets unique identifier.
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Foo.Value">
+            <summary>
+            Gets or sets the Foo value.
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.FooFile.File">
+            <summary>
+            Gets or set the file content.
+            </summary>
+        </member>
+        <member name="T:csAPI.Models.Highscore">
+            <summary>
+            Quiz highscores
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Highscore.CreateAd">
+            <summary>
+            Gets the creation time.
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Highscore.score">
+            <summary>
+            The score. Higher is better
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Highscore.User">
+            <summary>
+            Gets or sets UserName
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Highscore.Info">
+            <summary>
+            Gets or sets info
+            </summary>
+        </member>
+        <member name="T:csAPI.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:csAPI.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:csAPI.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:csAPI.Services.HighscoresController">
+            <summary>
+            Handles highscores for quiz app
+            </summary>
+        </member>
+        <member name="M:csAPI.Services.HighscoresController.Get">
+            <summary>
+            Returns List of Highscores
+            </summary>
+        </member>
+        <member name="M:csAPI.Services.HighscoresController.Post(csAPI.Models.Highscore)">
+            <summary>
+            Submits new highscore if possible
+            </summary>
+        </member>
+        <member name="T:csAPI.Services.IFooService">
+            <summary>
+            Represents the set of methods for Foo manipulation.
+            </summary>
+        </member>
+        <member name="M:csAPI.Services.IFooService.Create(csAPI.Models.Foo)">
+            <summary>
+            Tries to create new Foo.
+            </summary>
+            <param name="foo">Instance of <see cref="T:csAPI.Models.Foo"/></param>
+            <returns>Unique identifier.</returns>
+        </member>
+        <member name="M:csAPI.Services.IFooService.Get">
+            <summary>
+            Tries to retrieve all Foo objects.
+            </summary>
+            <returns>A collection of Foo objects (collection might be empty, but never null).</returns>
+        </member>
+        <member name="M:csAPI.Services.IFooService.Get(System.Int32)">
+            <summary>
+            Tries to retrieve specified Foo object if exists.
+            </summary>
+            <param name="id">Unique identifier.</param>
+            <returns>A <see cref="T:csAPI.Models.Foo"/> object, or null.</returns>
+        </member>
+        <member name="M:csAPI.Services.IFooService.Update(csAPI.Models.Foo)">
+            <summary>
+            Tries to perform update.
+            </summary>
+            <param name="foo">Instance of <see cref="T:csAPI.Models.Foo"/> that holds values that we want updated.</param>
+            <returns>An awaitable task.</returns>
+        </member>
+        <member name="M:csAPI.Services.IFooService.Delete(System.Int32)">
+            <summary>
+            Tries to delete specified Foo.
+            </summary>
+            <param name="id">Unique identifier.</param>
+            <returns>An awaitable task.</returns>
+        </member>
+        <member name="T:csAPI.Startup">
+            <summary>
+            OWIN configuration and setup.
+            </summary>
+        </member>
+        <member name="M:csAPI.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Initializes new instance of <see cref="T:csAPI.Startup"/>
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:csAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:csAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>
