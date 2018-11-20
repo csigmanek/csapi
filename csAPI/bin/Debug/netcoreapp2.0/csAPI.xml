@@ -106,17 +106,27 @@
         </member>
         <member name="P:csAPI.Models.Highscore.score">
             <summary>
-            The score. Higher is better
+            Score. Higher is better
             </summary>
         </member>
-        <member name="P:csAPI.Models.Highscore.User">
+        <member name="P:csAPI.Models.Highscore.user">
             <summary>
-            Gets or sets UserName
+            Gets or sets user
             </summary>
         </member>
-        <member name="P:csAPI.Models.Highscore.Info">
+        <member name="P:csAPI.Models.Highscore.category">
             <summary>
-            Gets or sets info
+            Gets or sets category
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Highscore.difficulty">
+            <summary>
+            Gets or sets difficulty
+            </summary>
+        </member>
+        <member name="P:csAPI.Models.Highscore.id">
+            <summary>
+            Gets or sets id to update or delete values
             </summary>
         </member>
         <member name="T:csAPI.Program">
@@ -142,7 +152,7 @@
             Handles highscores for quiz app
             </summary>
         </member>
-        <member name="M:csAPI.Services.HighscoresController.Get">
+        <member name="M:csAPI.Services.HighscoresController.Get(System.String)">
             <summary>
             Returns List of Highscores
             </summary>

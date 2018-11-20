@@ -11,20 +11,29 @@ namespace csAPI.Models
         /// Gets the creation time.
         /// </summary>
         public DateTime CreateAd => DateTime.UtcNow;
-
         /// <summary>
-        /// The score. Higher is better
+        /// Score. Higher is better
         /// </summary>
         public double score { get; set; }
 
         /// <summary>
-        /// Gets or sets UserName
+        /// Gets or sets user
         /// </summary>
-        public string User { get; set; }
+        public string user { get; set; }
 
         /// <summary>
-        /// Gets or sets info
+        /// Gets or sets category
         /// </summary>
-        public string Info { get; set; }
+        public string category { get; set; }
+
+        /// <summary>
+        /// Gets or sets difficulty
+        /// </summary>
+        public Int16 difficulty { get; set; }
+
+        /// <summary>
+        /// Gets or sets id to update or delete values
+        /// </summary>
+        public int id { get; set; }
     }
 }

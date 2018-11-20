@@ -12,4 +12,4 @@ C:\Users\scynj\source\repos\csAPI\csAPI\obj\Debug\netcoreapp2.1\csAPI.AssemblyIn
 C:\Users\scynj\source\repos\csAPI\csAPI\obj\Debug\netcoreapp2.1\csAPI.RazorTargetAssemblyInfo.cache
 C:\Users\scynj\source\repos\csAPI\csAPI\obj\Debug\netcoreapp2.1\csAPI.dll
 C:\Users\scynj\source\repos\csAPI\csAPI\obj\Debug\netcoreapp2.1\csAPI.pdb
-C:\Users\scynj\source\repos\csAPI\csAPI\obj\Debug\netcoreapp2.1\csAPI.csprojAssemblyReference.cache
+C:\Users\scynj\source\repos\csAPI\csAPI\obj\Debug\netcoreapp2.1\csAPI.csprojResolveAssemblyReference.cache
