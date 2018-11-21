@@ -14,7 +14,7 @@ namespace csAPI.Services
     [Route("api/[controller]")]
     public class HighscoresController : Controller
     {
-        private String connetionString = @"Data Source=DESKTOP-25CISML\SQLEXPRESS;Initial Catalog=HighScore;Integrated Security=True";
+        private String connetionString = Configuration.ConnectionStrings.dataBaseName + @"Initial Catalog=HighScore;Integrated Security=True";
         private SqlConnection cnn;
         private List<Highscore> getScoresForCategory(string category)
         {

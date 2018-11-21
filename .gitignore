@@ -14,3 +14,5 @@ csAPI/obj/project.assets.json
 csAPI/obj/csAPI.csproj.nuget.g.props
 .vs/csAPI/v15/Server/sqlite3/storage.ide-wal
 .vs/csAPI/v15/Server/sqlite3/storage.ide-shm
+bin/Debug/
+sqlite3/
