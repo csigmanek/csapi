@@ -32,3 +32,16 @@ csAPI/bin/Debug/netcoreapp2.1/csAPI.pdb
 .vs/csAPI/v15/Server/sqlite3/storage.ide-wal
 .vs/csAPI/v15/.suo
 .vs/config/applicationhost.config
+.vs/config/applicationhost.config
+.vs/csAPI/v15/Server/sqlite3/storage.ide-shm
+.vs/csAPI/v15/Server/sqlite3/storage.ide-wal
+csAPI/bin/Debug/netcoreapp2.1/csAPI.runtimeconfig.dev.json
+csAPI/bin/Release/netcoreapp2.1/csAPI.runtimeconfig.dev.json
+csAPI/bin/Release/netcoreapp2.1/csAPI.xml
+csAPI/csAPI.csproj
+csAPI/obj/Debug/netcoreapp2.1/csAPI.csproj.FileListAbsolute.txt
+csAPI/obj/Release/netcoreapp2.1/csAPI.csproj.FileListAbsolute.txt
+csAPI/obj/Release/netcoreapp2.1/PubTmp/Out/csAPI.xml
+csAPI/obj/Release/netcoreapp2.1/UserSecretsAssemblyInfo.cs
+csAPI/Properties/PublishProfiles/CustomProfile2.pubxml
+csAPI/Properties/PublishProfiles/CustomProfile2.pubxml.user
